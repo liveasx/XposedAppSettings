@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">应用设置</string>
+    <string name="app_mod_summary">在每一个应用程序的基础上设置通用配置:
+DPI分辨率;字体大小;覆盖加载资源;语言设置;全屏;无标题;保持屏幕开启;
+锁屏上显示;常驻内存;强制屏幕方向;持续通知;无大型通知;撤消权限</string>
+
+
+
+    <!-- Main screen -->
+    <string name="app_tab_main">程序</string>
+    <string name="app_tab_about">关于</string>
+
+    <string name="app_loading">正在加载应用程序,请稍等...</string>
+    <string name="app_searchhint">名称或安装包</string>
+    <string name="app_about">这个 <a href="http://forum.xda-developers.com/showthread.php?t=1574401">Xposed</a> 模块由
+ <a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> 和 <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a>共同开发.
+ \n你可以访问 <a href="http://forum.xda-developers.com/showthread.php?t=2437377">这里</a> 提出问题或建议</string>
+    <string name="app_description">此模块允许在不编辑APK情况下修改某些通用设置:
+\n- 屏幕密度 / dpi
+\n- 字体大小
+\n- 加载资源伪装屏幕尺寸大小
+\n- 区域设置(语言)
+\n- 全屏模式
+\n- 隐藏标题栏
+\n- 应用程序运行时屏幕常亮
+\n- 锁屏显示应用
+\n- 常驻内存
+\n- 强制屏幕方向(竖屏/横屏/自动)
+\n- 持续通知(循环播放声音)
+\n- 禁止大型(扩展)通知
+\n- 撤销权限</string>
+    <string name="app_version">版本: %s</string>
+    <string name="app_translation">翻译: %s</string>
+    <string name="app_notactive_warning">注意: 虽然可以原样使用配置面板,
+但这个模块在其配置中启用只会影响已安装的Xposed框架!</string>
+
+
+    <!-- app-specific menu -->
+    <string name="menu_save">保存</string>
+    <string name="menu_launch">运行</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_playstore">Play 商店</string>
+
+
+    <!-- Settings screen -->
+    <string name="settings_title">设置</string>
+    <string name="settings_dpi">DPI</string>
+    <string name="settings_fontscale">字体大小</string>
+    <string name="settings_listres">资源列表</string>
+    <string name="settings_screen">屏幕 (dp)</string>
+    <string name="settings_xlargeres">超大资源.</string>
+    <string name="settings_locale">语言</string>
+    <string name="settings_fullscreen">全屏</string>
+    <string name="settings_notitle">无标题</string>
+    <string name="settings_screenon">保持屏幕开启</string>
+    <string name="settings_showwhenlocked">锁定时显示</string>
+    <string name="settings_resident">常驻</string>
+    <string name="settings_orientation">方向</string>
+    <string name="settings_insistentnotif">持续通知</string>
+    <string name="settings_nobignotif">没大型通知</string>
+    <string name="settings_permissions">权限</string>
+
+    <string name="settings_default">(默认)</string>
+
+    <string name="settings_force">强制</string>
+    <string name="settings_prevent">阻止</string>
+
+    <string name="settings_ori_normal">正常旋转</string>
+    <string name="settings_ori_portrait">总是竖屏</string>
+    <string name="settings_ori_landscape">总是横屏</string>
+    <string name="settings_ori_forceauto">强制自动旋转</string>
+
+    <!-- List resources -->
+    <string name="res_title">资源</string>
+    <string name="res_noentries">未找到资源</string>
+    <string name="res_failedtoload">载入 APK 内容失败</string>
+
+    <!-- Show / search / revoke permissions -->
+    <string name="perms_title">权限</string>
+    <string name="perms_revoke">撤销权限</string>
+    <string name="perms_shared_warning">警告:已分享安装包!</string>
+    <string name="perms_searchhint">名称或描述</string>
+    <string name="perms_nodescription">( 未提供描述 )</string>
+    <string name="perms_filter_title">选择权限过滤,或取消显示所有</string>
+
+    <!-- Saving settings -->
+    <string name="settings_unsaved_title">警告</string>
+    <string name="settings_unsaved_detail">您尚未保存设置,
+	返回将丢弃更改?</string>
+    <string name="settings_apply_title">应用设置</string>
+    <string name="settings_apply_detail">终止应用以重新启动时使用新设置?</string>
+
+
+    <!-- Filter dialog -->
+    <string name="filter_title">过滤器</string>
+    <string name="filter_all">所有</string>
+    <string name="filter_overridden">覆盖</string>
+    <string name="filter_unchanged">未更改</string>
+    <string name="filter_type">类型</string>
+    <string name="filter_user">用户</string>
+    <string name="filter_system">系统</string>
+    <string name="filter_settingsactive">设置激活</string>
+    <string name="filter_active">激活</string>
+    <string name="filter_notactive">未激活</string>
+    <string name="filter_resources">正在加载资源</string>
+    <string name="filter_cancel">取消</string>
+    <string name="filter_clear">清除</string>
+    <string name="filter_apply">应用</string>
+
+
+    <string name="translator"></string>
+</resources>
